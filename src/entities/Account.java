@@ -56,15 +56,3 @@ public class Account {
 
     }
 }
-/*
-if (checkIn.before(now) || checkOut.before(now)){
-				//Testar se checkin e checkout são antes de agora
-           throw new DomainException("Reservation dates for update must be future dates");
-						//Lançar uma exceção > DomainException(Personalizada)
-        }
-        if (!checkOut.after(checkIn)){
-				//Testar se chekout não é antes do checkin
-           throw new DomainException("Check-out date must be after check-in date");
-						//Lançar uma exceção > DomainException(Personalizada)
-        }
- */
